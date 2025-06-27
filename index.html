@@ -133,7 +133,8 @@
         let unsubscribe; // To detach Firestore listener
 
         // --- FIREBASE SETUP ---
-        const firebaseConfig = {
+async function initializeFirebase() {        
+const firebaseConfig = {
   apiKey: "AIzaSyCmjNSi2GIt0Gqdqub-yCgmxP98wZux7xU",
   authDomain: "calendar-basic-72988.firebaseapp.com",
   projectId: "calendar-basic-72988",
